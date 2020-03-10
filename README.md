@@ -1,0 +1,1 @@
+This is the first assignment of the odin project which I am currently doing. I have to recreate the classic Google homepage to the best of my ability using what I've learned about html, css, and a small amount of javascript. I am starting this on Monday March 8th, 2020. I hope to finish it within the next two days.
