@@ -1,0 +1,164 @@
+html{
+    font-family: arial, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+  }
+  
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  .top{
+      display: inline; 
+      padding: 0px 0px 0px 15px;
+      color: #000000;
+      font-family: arial, sans-serif;
+  }
+  .top a{
+      color:black;
+      font-size: 13px;
+      text-decoration: none;
+      padding: 30px 0px 0px 0px; 
+  } 
+
+  .bottom a{
+    color:#5f6368;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  li a:hover{
+      text-decoration: underline;
+  }
+  .logo{
+      padding-top: 109px;
+
+}
+
+.logo_img{
+    height:92px;
+    width:272px;
+}
+    
+  .login_button{
+      background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-color: #4285f4;
+    border-style: solid;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .round{
+      width: 584px;
+      height: 42px;
+      border-radius: 20px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #cfcfcf;
+  }
+/* .search{
+      position:relative;
+  } 
+  .search img{
+      postion: absolute;
+      top:0px;
+      left:0px;
+  }*/
+  input{    
+    /*background: url("https://ya-webdesign.com/transparent250_/search-icon-png-2.png") top left     no-repeat, url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png") top right no-repeat
+    background-size: 6%;
+    background-position: 4px 3px;*/
+    background-image: url("https://ya-webdesign.com/transparent250_/search-icon-png-2.png"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
+  background-size: 4%, 3%;
+  background-position: 8px 10px, 550px 10px;
+  background-repeat: no-repeat, no-repeat;
+  padding: auto;
+    }
+
+
+
+  .round:hover{
+      box-shadow: 1px 1px 1px 1px #cccccc;
+  }
+
+  
+  /*.gsearch_img{
+      position: absolute;
+      bottom: 12px;
+      left:180px;
+      width: 10px;
+      height: 10px;
+  }*/
+
+  .buttons{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+  #gsearch{
+      background-color: #f2f2f2;
+      border: 1px #f2f2f2;
+      border-radius: 3px;
+      border-style: solid;
+      color: #5F6368; 
+      font-size: 14px;
+      padding: 10px 20px;
+  }
+
+  #ifl{
+    background-color: #f2f2f2;
+    border: 1px #f2f2f2;
+    border-radius: 3px;
+    border-style: solid;
+    color: #5F6368; 
+    font-size: 14px;
+    padding: 10px 20px;
+
+  }
+
+  #gsearch:hover {
+     /*box-shadow: 1px 1px 1px 1px black;*/
+     border-color:#76797c !important;
+     color: black;
+   }
+
+   #ifl:hover{
+    border-color: #898c8f !important;
+    color:black; 
+   }
+   .divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+   .bot_nav{
+  }
+   .bottom_nav{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 99%;
+      background-color: #f2f2f2;
+      padding: 10px 0px 15px 0px;
+      border-top: 10px black;
+}
+.bottom{
+    display: inline; 
+    padding: 0px px 0px 0px 15px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0px 0px 0px 15px;
+}
